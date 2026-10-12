@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio profesional de Jose Quispe Pino, Senior QA Automation Engineer con más de 9 años de experiencia en automatización de pruebas web, mobile y servicios." />
+  <meta name="author" content="Jose Quispe Pino" />
+  <meta name="theme-color" content="#071012" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jose Quispe Pino | Senior QA Automation Engineer" />
+  <meta property="og:description" content="QA Automation Engineer con más de 9 años de experiencia en automatización de pruebas web, mobile y servicios." />
+  <!-- Reemplaza por la URL absoluta (https://TU-USUARIO.github.io/portafolio/og-image.png) al publicar. -->
+  <meta property="og:image" content="og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jose Quispe Pino | Senior QA Automation Engineer" />
+  <meta name="twitter:description" content="Automatización de pruebas, frameworks de calidad, API testing y desarrollo móvil." />
+  <meta name="twitter:image" content="og-image.png" />
+
+  <title>Jose Quispe Pino | Senior QA Automation Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Datos estructurados (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jose Quispe Pino",
+    "jobTitle": "Senior QA Automation Engineer",
+    "url": "https://www.linkedin.com/in/josequispepino/",
+    "email": "mailto:joseqp92@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/josequispepino/"],
+    "knowsAbout": [
+      "Test Automation", "API Testing", "Continuous Testing", "Selenium",
+      "Playwright", "WebDriverIO", "Appium", "Karate DSL", "JMeter", "CI/CD"
+    ],
+    "worksFor": { "@type": "Organization", "name": "Inetum" },
+    "alumniOf": [
+      { "@type": "Organization", "name": "TECSUP" },
+      { "@type": "Organization", "name": "Purdue University" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+  <div class="progress" aria-hidden="true"><span class="progress__bar" id="progressBar"></span></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="nav__brand" href="#top">
+        <span class="nav__logo" aria-hidden="true">JQ</span>
+        <span class="nav__name">Jose Quispe Pino</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#summary" data-i18n="nav.summary">Resumen</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experiencia</a></li>
+        <li><a href="#recognition" data-i18n="nav.recognition">Reconocimientos</a></li>
+        <li><a href="#education" data-i18n="nav.education">Educación</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+        <li class="nav__actions">
+          <div class="lang-switch" role="group" aria-label="Idioma / Language">
+            <button class="lang-switch__btn is-active" type="button" data-lang="es" aria-pressed="true">ES</button>
+            <button class="lang-switch__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+          </div>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+            <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-13a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1Zm0 15a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1Zm8-7a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1ZM6 12a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm11.66-5.66a1 1 0 0 1 0 1.42l-.7.7a1 1 0 1 1-1.42-1.4l.7-.72a1 1 0 0 1 1.42 0ZM8.46 15.54a1 1 0 0 1 0 1.42l-.7.7a1 1 0 0 1-1.42-1.41l.71-.71a1 1 0 0 1 1.41 0Zm9.2 2.12a1 1 0 0 1-1.42 0l-.7-.7a1 1 0 1 1 1.41-1.42l.71.7a1 1 0 0 1 0 1.42ZM8.46 8.46a1 1 0 0 1-1.41 0l-.71-.7A1 1 0 0 1 7.76 6.34l.7.7a1 1 0 0 1 0 1.42Z"/></svg>
+            <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="badge-live">
+            <span class="badge-live__dot" aria-hidden="true"></span>
+            <span data-i18n="hero.badge">Disponible para oportunidades</span>
+          </span>
+          <p class="eyebrow" style="margin-top:18px">Senior QA Automation Engineer</p>
+          <h1 id="heroTitle" class="hero__title">
+            <span data-i18n="hero.greeting">Hola, soy</span> <span class="gradient-text">Jose Quispe Pino</span>
+          </h1>
+          <p class="hero__lead" data-i18n="hero.lead">
+            QA Automation Engineer con más de 9 años de experiencia en testing y
+            automatización de pruebas en entornos web, mobile y servicios. Especializado en
+            diseño de frameworks de automatización, API testing y Continuous Testing.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact" data-i18n="hero.cta">Contacto</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/josequispepino/" target="_blank" rel="noopener">
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9Z"/></svg>
+              LinkedIn
+            </a>
+            <button class="btn btn--ghost" id="printBtn" type="button">
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6M6 18H4v-6h16v6h-2M8 14h8v7H8z"/></svg>
+              <span data-i18n="hero.print">Imprimir / Guardar PDF</span>
+            </button>
+          </div>
+          <ul class="hero__meta">
+            <li><span class="dot"></span> <span data-i18n="hero.meta1">+9 años de experiencia</span></li>
+            <li><span class="dot"></span> <span>Web · Mobile · APIs</span></li>
+            <li><span class="dot"></span> <span>Agile &amp; Kanban</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__card reveal" aria-hidden="true">
+          <div class="code-card">
+            <div class="code-card__bar">
+              <span></span><span></span><span></span>
+              <p>checkout.feature</p>
+            </div>
+            <pre><code><span class="c-com"># checkout - Payment &amp; error flows</span>
+<span class="c-key">Feature:</span> Checkout API
+  <span class="c-key">Scenario:</span> Payment succeeds with a valid card
+    <span class="c-key">Given</span> <span class="c-fn">path</span> <span class="c-str">'orders'</span>
+    <span class="c-key">And</span> <span class="c-fn">request</span> { amount: <span class="c-str">250</span>, card: <span class="c-str">'valid'</span> }
+    <span class="c-key">When</span> <span class="c-fn">method</span> <span class="c-str">POST</span>
+    <span class="c-key">Then</span> <span class="c-fn">status</span> <span class="c-str">201</span>
+    <span class="c-key">And</span> <span class="c-fn">match</span> <span class="c-str">$.status</span> == <span class="c-str">'PAID'</span>
+    <span class="c-key">And</span> <span class="c-fn">match</span> <span class="c-str">response.invoiceId</span> == <span class="c-str">'#number'</span></code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ===================== SUMMARY ===================== -->
+    <section class="section" id="summary" aria-labelledby="summaryTitle">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index" aria-hidden="true">01</span>
+          <p class="eyebrow" data-i18n="summary.eyebrow">Professional Summary</p>
+          <h2 id="summaryTitle" class="section__title" data-i18n="summary.title">Resumen profesional</h2>
+        </header>
+
+        <div class="panel reveal">
+          <p class="prose" data-i18n="summary.p1">
+            QA Automation Engineer con más de 9 años de experiencia en testing y
+            automatización de pruebas en entornos web, mobile y servicios. Especializado en
+            el diseño de frameworks de automatización, API testing y prácticas de Continuous
+            Testing en entornos Agile.
+          </p>
+          <p class="prose" data-i18n="summary.p2">
+            Enfocado en mejorar la calidad del software mediante la detección temprana de
+            defectos y la optimización de los procesos de testing, trabajando con Java,
+            JavaScript y TypeScript e integrando pruebas automatizadas en pipelines de CI/CD.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section section--alt" id="skills" aria-labelledby="skillsTitle">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index" aria-hidden="true">02</span>
+          <p class="eyebrow" data-i18n="skills.eyebrow">Technical Skills</p>
+          <h2 id="skillsTitle" class="section__title" data-i18n="skills.title">Technical Skills</h2>
+        </header>
+
+        <div class="grid grid--skills">
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></span>
+              <h3 class="card__title">Test Automation <span class="skill__tag">AUTO</span></h3>
+            </div>
+            <ul class="chips">
+              <li>Selenium</li><li>WebDriverIO</li><li>Appium</li><li>Playwright</li><li>Karate DSL</li>
+            </ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 2v6M15 2v6M7 8h10v3a5 5 0 0 1-10 0V8ZM12 16v6"/></svg></span>
+              <h3 class="card__title">API Testing &amp; Development Tools <span class="skill__tag">API</span></h3>
+            </div>
+            <ul class="chips"><li>Postman</li><li>Swagger / OpenAPI</li></ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6l-5 6 5 6M16 6l5 6-5 6"/></svg></span>
+              <h3 class="card__title">Programming Languages <span class="skill__tag">LANG</span></h3>
+            </div>
+            <ul class="chips"><li>Java</li><li>JavaScript</li><li>TypeScript</li><li>Node.js</li></ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg></span>
+              <h3 class="card__title">Performance Testing <span class="skill__tag">PERF</span></h3>
+            </div>
+            <ul class="chips"><li>Apache JMeter</li></ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg></span>
+              <h3 class="card__title">Test Management &amp; Quality Assurance <span class="skill__tag">TM</span></h3>
+            </div>
+            <ul class="chips">
+              <li>Xray</li><li>Zephyr</li><li>QMetry</li><li>Jira</li><li>Confluence</li>
+            </ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></span>
+              <h3 class="card__title">Cloud &amp; Cloud Services <span class="skill__tag">CLOUD</span></h3>
+            </div>
+            <ul class="chips"><li>AWS</li><li>Microsoft Azure</li></ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+              <h3 class="card__title">Observability &amp; Monitoring <span class="skill__tag">OBS</span></h3>
+            </div>
+            <ul class="chips"><li>AWS CloudWatch</li><li>Datadog</li><li>Dynatrace</li></ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.7-5.7M20 12a8 8 0 0 1-13.7 5.7"/><path d="M18 3v4h-4M6 21v-4h4"/></svg></span>
+              <h3 class="card__title">CI/CD &amp; Version Control <span class="skill__tag">CI/CD</span></h3>
+            </div>
+            <ul class="chips"><li>Git</li><li>GitHub Actions</li><li>GitLab</li><li>Jenkins</li></ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.1 6.4L21 10l-6.9 1.6L12 18l-2.1-6.4L3 10l6.9-1.6z"/></svg></span>
+              <h3 class="card__title">AI-Assisted Development <span class="skill__tag">AI</span></h3>
+            </div>
+            <ul class="chips"><li>GitHub Copilot</li><li>OpenCode</li></ul>
+          </article>
+
+          <article class="card skill reveal">
+            <div class="skill__head">
+              <span class="skill__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span>
+              <h3 class="card__title">Databases &amp; Data Validation <span class="skill__tag">DATA</span></h3>
+            </div>
+            <ul class="chips"><li>SQL</li><li>Oracle Database</li><li>Redis</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section" id="experience" aria-labelledby="experienceTitle">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index" aria-hidden="true">03</span>
+          <p class="eyebrow" data-i18n="exp.eyebrow">Trayectoria</p>
+          <h2 id="experienceTitle" class="section__title" data-i18n="exp.title">Experiencia profesional</h2>
+        </header>
+
+        <ul class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <h3 data-i18n="exp.role.qaAutomationEngineer">QA Automation Engineer</h3>
+                <span class="timeline__period" data-i18n="exp.inetum.period">Jun 2024 – Set 2026</span>
+              </div>
+              <p class="timeline__company" data-i18n="exp.badge.inetum">Inetum · Cliente: Pacífico</p>
+              <ul class="bullets">
+                <li data-i18n="exp.inetum.b1">Diseñé e implementé suites de automatización de pruebas para APIs utilizando Karate DSL, fortaleciendo la confiabilidad de integraciones críticas del negocio.</li>
+                <li data-i18n="exp.inetum.b2">Implementé validaciones end-to-end para flujos core del sector seguros.</li>
+                <li data-i18n="exp.inetum.b3">Participé en la validación del flujo de Trunk-Based Development (TBD), integrando pruebas automatizadas dentro del flujo de desarrollo y CI/CD.</li>
+                <li data-i18n="exp.inetum.b4">Participé en proyectos de seguros como Efectivo Protegido, Tu Plata Segura y Portal de Siniestros, entre otras soluciones del negocio.</li>
+                <li data-i18n="exp.inetum.b5">Realicé análisis de logs y trazabilidad de aplicaciones utilizando Dynatrace para la identificación y seguimiento de incidencias.</li>
+                <li data-i18n="exp.inetum.b6">Brindé soporte al equipo en aspectos técnicos de QA, automatización de pruebas y aseguramiento de la calidad desde etapas tempranas del desarrollo.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <h3 data-i18n="exp.role.qaAutomationSr">QA Automation Sr</h3>
+                <span class="timeline__period" data-i18n="exp.softtek.period">Ene 2023 – May 2024</span>
+              </div>
+              <p class="timeline__company" data-i18n="exp.badge.softtek">Softtek · Cliente: Pacífico</p>
+              <ul class="bullets">
+                <li data-i18n="exp.softtek.b1">Lideré la automatización de pruebas para aplicaciones web y servicios, incrementando la cobertura de testing automatizado.</li>
+                <li data-i18n="exp.softtek.b2">Utilicé GitHub para la gestión de código y ejecución de automatizaciones dentro del flujo de CI/CD.</li>
+                <li data-i18n="exp.softtek.b3">Validé aplicaciones, integraciones y flujos de datos utilizando AcselX, Azure Logic Apps, Azure Data Factory y Azure Functions, con validaciones complementarias sobre bases de datos SQL.</li>
+                <li data-i18n="exp.softtek.b4">Utilicé Dynatrace para el monitoreo y análisis de aplicaciones, y Jira para la gestión y seguimiento de incidencias.</li>
+                <li data-i18n="exp.softtek.b5">Impulsé buenas prácticas de QA y automatización dentro del equipo, promoviendo la calidad desde etapas tempranas del desarrollo.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <h3 data-i18n="exp.role.qaAutomationSr.2">QA Automation Sr</h3>
+                <span class="timeline__period" data-i18n="exp.bcp.period">Nov 2021 – Ene 2023</span>
+              </div>
+              <p class="timeline__company">BCP</p>
+              <ul class="bullets">
+                <li data-i18n="exp.bcp.b1">Automatización de pruebas para plataformas de canales digitales empresariales.</li>
+                <li data-i18n="exp.bcp.b2">Validé APIs y servicios backend de alta criticidad.</li>
+                <li data-i18n="exp.bcp.b3">Aseguré calidad continua en entornos Agile.</li>
+                <li data-i18n="exp.bcp.b4">Contribuí a la reducción de incidentes en producción.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <h3 data-i18n="exp.role.qaAutomationSenior">QA Automation Senior</h3>
+                <span class="timeline__period" data-i18n="exp.baufest.period">Mar 2020 – Oct 2021</span>
+              </div>
+              <p class="timeline__company">Baufest</p>
+              <ul class="bullets">
+                <li data-i18n="exp.baufest.b1">Lideré iniciativas de automatización a nivel organizacional.</li>
+                <li data-i18n="exp.baufest.b2">Diseñé frameworks reutilizables para múltiples proyectos.</li>
+                <li data-i18n="exp.baufest.b3">Ejecuté pruebas de performance con JMeter.</li>
+                <li data-i18n="exp.baufest.b4">Capacité equipos en automatización.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <h3 data-i18n="exp.role.qaAutomationEngineer.2">QA Automation Engineer</h3>
+                <span class="timeline__period" data-i18n="exp.practia.period">Ene 2019 – Feb 2020</span>
+              </div>
+              <p class="timeline__company">Practia</p>
+              <ul class="bullets">
+                <li data-i18n="exp.practia.b1">Desarrollé automatización para web, mobile, desktop y APIs.</li>
+                <li data-i18n="exp.practia.b2">Incrementé la cobertura de pruebas automatizadas.</li>
+                <li data-i18n="exp.practia.b3">Optimicé procesos de testing reduciendo esfuerzo manual.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <h3 data-i18n="exp.role.qaTechnicalAnalyst">QA Technical Analyst</h3>
+                <span class="timeline__period" data-i18n="exp.trans.period">Mar 2017 – Nov 2018</span>
+              </div>
+              <p class="timeline__company">Trans Solutions Systems</p>
+              <ul class="bullets">
+                <li data-i18n="exp.trans.b1">Diseñé e implementé un framework de automatización desde cero.</li>
+                <li data-i18n="exp.trans.b2">Implementé prácticas de Continuous Testing.</li>
+                <li data-i18n="exp.trans.b3">Lideré equipo QA enfocado en automatización.</li>
+                <li data-i18n="exp.trans.b4">Definí pruebas funcionales y no funcionales.</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== RECOGNITION ===================== -->
+    <section class="section section--alt" id="recognition" aria-labelledby="recognitionTitle">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index" aria-hidden="true">04</span>
+          <p class="eyebrow" data-i18n="rec.eyebrow">Reconocimientos</p>
+          <h2 id="recognitionTitle" class="section__title" data-i18n="rec.title">Logros destacados</h2>
+        </header>
+
+        <div class="grid grid--two">
+          <article class="card award reveal">
+            <span class="award__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <h3 class="card__title">CRACK del Q</h3>
+              <p class="card__meta">2026 · Inetum</p>
+              <p class="card__text" data-i18n="rec.crack.text">Reconocimiento al desempeño destacado durante el trimestre.</p>
+            </div>
+          </article>
+
+          <article class="card award reveal">
+            <span class="award__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 12 8 16l8-8 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 3l2.4 5 5.6.6-4.2 3.7 1.2 5.4L12 15l-5 2.7 1.2-5.4L4 8.6l5.6-.6L12 3Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" opacity=".6"/></svg>
+            </span>
+            <div>
+              <h3 class="card__title">EmbedEX</h3>
+              <p class="card__meta">2024 · Softtek</p>
+              <p class="card__text" data-i18n="rec.embedex.text">Reconocimiento al desempeño destacado en el equipo.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section" id="education" aria-labelledby="educationTitle">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index" aria-hidden="true">05</span>
+          <p class="eyebrow" data-i18n="edu.eyebrow">Formación</p>
+          <h2 id="educationTitle" class="section__title" data-i18n="edu.title">Educación y certificaciones</h2>
+        </header>
+
+        <div class="grid grid--two">
+          <article class="card reveal">
+            <h3 class="card__title">TECSUP</h3>
+            <p class="card__meta">2009 – 2013</p>
+            <p class="card__text" data-i18n="edu.tecsup1">Networks and Data Communications.</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card__title">TECSUP</h3>
+            <p class="card__meta">2012</p>
+            <p class="card__text" data-i18n="edu.tecsup2">Oracle Database 11g: SQL Fundamentals I.</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card__title">TECSUP – PURDUE UNIVERSITY</h3>
+            <p class="card__meta">2013</p>
+            <p class="card__text" data-i18n="edu.purdue">UML &amp; Mobile Application Development.</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card__title">CertiProf</h3>
+            <p class="card__meta">2020</p>
+            <p class="card__text" data-i18n="edu.certiprof">SCRUM Foundation Professional Certificate.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section section--alt" id="projects" aria-labelledby="projectsTitle">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index" aria-hidden="true">06</span>
+          <p class="eyebrow" data-i18n="proj.eyebrow">Proyectos</p>
+          <h2 id="projectsTitle" class="section__title" data-i18n="proj.title">Proyectos y demos</h2>
+        </header>
+
+        <div class="grid grid--two">
+          <article class="card project reveal">
+            <div class="project__cover project__cover--bpuzzle" aria-hidden="true"><span>BPZ</span></div>
+            <div class="project__body">
+              <div class="project__head">
+                <h3 class="card__title">BPuzzle</h3>
+                <span class="tag" data-i18n="proj.bpuzzle.tag">App móvil · Personal</span>
+              </div>
+              <p class="card__text" data-i18n="proj.bpuzzle.text">Proyecto personal: una aplicación móvil de rompecabezas desarrollada con React Native, Expo y TypeScript.</p>
+              <ul class="chips chips--sm"><li>React Native</li><li>Expo</li><li>TypeScript</li></ul>
+              <!-- Añade aquí el enlace real cuando decidas publicarlo. -->
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__cover project__cover--e2e" aria-hidden="true"><span>E2E</span></div>
+            <div class="project__body">
+              <div class="project__head">
+                <h3 class="card__title" data-i18n="proj.e2e.title">Framework de automatización E2E</h3>
+                <span class="tag">Demo</span>
+              </div>
+              <p class="card__text" data-i18n="proj.e2e.text">Proyecto demostrativo de automatización end-to-end: estructura de proyecto, page objects y ejecución de pruebas sobre un sitio de ejemplo.</p>
+              <ul class="chips chips--sm"><li>Selenium</li><li>WebDriverIO</li><li>TypeScript</li></ul>
+              <span class="project__soon" data-i18n="proj.soon">Próximamente</span>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__cover project__cover--api" aria-hidden="true"><span>API</span></div>
+            <div class="project__body">
+              <div class="project__head">
+                <h3 class="card__title" data-i18n="proj.api.title">Automatización de APIs</h3>
+                <span class="tag">Demo</span>
+              </div>
+              <p class="card__text" data-i18n="proj.api.text">Proyecto demostrativo de pruebas de API con Karate DSL y Postman: validación de contratos, códigos de estado y flujos de negocio sobre un servicio de ejemplo.</p>
+              <ul class="chips chips--sm"><li>Karate DSL</li><li>Postman</li><li>REST</li></ul>
+              <span class="project__soon" data-i18n="proj.soon">Próximamente</span>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__cover project__cover--mobile" aria-hidden="true"><span>MOB</span></div>
+            <div class="project__body">
+              <div class="project__head">
+                <h3 class="card__title" data-i18n="proj.mobile.title">Automatización móvil</h3>
+                <span class="tag">Demo</span>
+              </div>
+              <p class="card__text" data-i18n="proj.mobile.text">Proyecto demostrativo de pruebas automatizadas para aplicaciones móviles con Appium, cubriendo los flujos principales sobre una app de ejemplo.</p>
+              <ul class="chips chips--sm"><li>Appium</li><li>Java</li><li>Mobile</li></ul>
+              <span class="project__soon" data-i18n="proj.soon">Próximamente</span>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__cover project__cover--perf" aria-hidden="true"><span>PERF</span></div>
+            <div class="project__body">
+              <div class="project__head">
+                <h3 class="card__title" data-i18n="proj.performance.title">Pruebas de performance</h3>
+                <span class="tag">Demo</span>
+              </div>
+              <p class="card__text" data-i18n="proj.performance.text">Proyecto demostrativo de pruebas de carga y rendimiento con JMeter sobre un servicio de ejemplo, midiendo tiempos de respuesta y estabilidad.</p>
+              <ul class="chips chips--sm"><li>JMeter</li><li>Performance</li></ul>
+              <span class="project__soon" data-i18n="proj.soon">Próximamente</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact" aria-labelledby="contactTitle">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__index" aria-hidden="true">07</span>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contacto</p>
+          <h2 id="contactTitle" class="section__title" data-i18n="contact.title">Hablemos</h2>
+          <p class="section__sub reveal" data-i18n="contact.sub">Disponible para oportunidades como Senior QA Automation Engineer.</p>
+        </header>
+
+        <div class="grid grid--three">
+          <a class="card card--link reveal" href="https://www.linkedin.com/in/josequispepino/" target="_blank" rel="noopener">
+            <span class="card__icon" aria-hidden="true">in</span>
+            <h3 class="card__title">LinkedIn</h3>
+            <p class="card__text">linkedin.com/in/josequispepino</p>
+          </a>
+
+          <a class="card card--link reveal" href="mailto:joseqp92@gmail.com">
+            <span class="card__icon" aria-hidden="true">@</span>
+            <h3 class="card__title">Email</h3>
+            <p class="card__text">joseqp92@gmail.com</p>
+          </a>
+
+          <a class="card card--link reveal" href="https://wa.me/51947755781?text=Hola%20Jose%2C%20vi%20tu%20portafolio%20y%20me%20gustaria%20conversar%20contigo." target="_blank" rel="noopener">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+            <h3 class="card__title" data-i18n="contact.whatsapp">WhatsApp</h3>
+            <p class="card__text">+51 947 755 781</p>
+          </a>
+        </div>
+
+        <div class="contact-actions reveal">
+          <button class="btn btn--primary" id="copyEmail" type="button">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+            <span data-i18n="contact.copy">Copiar email</span>
+          </button>
+          <button class="btn btn--ghost" id="printBtn2" type="button">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6M6 18H4v-6h16v6h-2M8 14h8v7H8z"/></svg>
+            <span data-i18n="hero.print">Imprimir / Guardar PDF</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; <span id="year"></span> Jose Quispe Pino. Senior QA Automation Engineer.</p>
+      <a class="link" href="#top" data-i18n="footer.top">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
