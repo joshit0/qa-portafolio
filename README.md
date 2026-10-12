@@ -6,19 +6,21 @@ dependencias. Compatible con **GitHub Pages**.
 
 ## Contenido
 
-- **Professional Summary** (en ingles).
-- **Technical Skills** organizadas por categoria.
+- **Professional Summary**.
+- **Technical Skills**: las 10 categorias profesionales del CV (en ingles).
 - **Experiencia**: Inetum, Softtek, BCP, Baufest, Practia y Trans Solutions Systems.
 - **Reconocimientos**: CRACK del Q 2026 y EmbedEX 2024.
 - **Proyectos**: BPuzzle (React Native, Expo, TypeScript) y proyectos demostrativos de
   automatizacion.
 - **Educacion y certificaciones**: TECSUP, PURDUE y CertiProf.
-- **Contacto**: LinkedIn, correo electronico y telefono.
+- **Contacto**: LinkedIn, correo electronico y WhatsApp directo (mensaje prellenado).
 - **Selector de idioma ES/EN** (se guarda en `localStorage`).
 - Modo **oscuro** por defecto, con conmutador a modo claro (se guarda en `localStorage`).
 - Paleta **esmeralda/teal**, tipografia del sistema (cero dependencias).
 - Detalles de UX: barra de progreso de scroll, header compacto, boton volver arriba,
   copiar email y **exportar a PDF** (estilos de impresion tipo CV).
+- Hero con una ventana de codigo que muestra un ejemplo de automatizacion de APIs con
+  **Karate DSL** (`checkout.feature`).
 - Diseno **responsive** y accesible (foco visible, `aria-*`, enlace de salto,
   `prefers-reduced-motion`).
 - Metadatos para compartir: Open Graph/Twitter + datos estructurados JSON-LD.
@@ -75,8 +77,8 @@ npx http-server -p 8000
 
 Puedes forzar el idioma abriendo la web con el parametro `lang`:
 
-- Espanol: `https://TU-USUARIO.github.io/portafolio/?lang=es`
-- Ingles: `https://TU-USUARIO.github.io/portafolio/?lang=en`
+- Espanol: `https://joshit0.github.io/portafolio/?lang=es`
+- Ingles: `https://joshit0.github.io/portafolio/?lang=en`
 
 El parametro de la URL tiene prioridad sobre lo guardado en el navegador. Si no
 envias `lang`, se usa el idioma guardado o, si no hay, el del navegador. Al pulsar el
@@ -95,7 +97,7 @@ git init
 git add .
 git commit -m "Portafolio profesional"
 git branch -M main
-git remote add origin https://github.com/TU-USUARIO/portafolio.git
+git remote add origin https://github.com/joshit0/portafolio.git
 git push -u origin main
 ```
 
@@ -105,13 +107,13 @@ git push -u origin main
 6. Espera 1-2 minutos. Tu web quedara en:
 
 ```
-https://TU-USUARIO.github.io/portafolio/
+https://joshit0.github.io/portafolio/
 ```
 
 ### Usar un repositorio con tu nombre de usuario (URL sin subcarpeta)
 
-Si nombras el repositorio `TU-USUARIO.github.io`, la web quedara en
-`https://TU-USUARIO.github.io/` (raiz). El resto de pasos es igual.
+Si nombras el repositorio `joshit0.github.io`, la web quedara en
+`https://joshit0.github.io/` (raiz). El resto de pasos es igual.
 
 ## Personalizacion recomendada (antes de publicar)
 
@@ -122,7 +124,7 @@ El contenido ya esta cargado desde tu CV. Solo quedan detalles opcionales:
 - **BPuzzle**: anade el enlace cuando decidas publicarlo.
 - **Imagen social**: `og-image.png` ya existe. Al publicar, actualiza en `index.html` la
   meta `og:image` con la URL absoluta (ej.
-  `https://TU-USUARIO.github.io/portafolio/og-image.png`) para que LinkedIn/WhatsApp
+  `https://joshit0.github.io/portafolio/og-image.png`) para que LinkedIn/WhatsApp
   muestren la vista previa. Si quieres cambiar el diseno, edita `og-image.svg` y
   regenera el PNG.
 - **Impresion / PDF**: si quieres afinar el resultado impreso, ajusta el bloque
@@ -130,11 +132,12 @@ El contenido ya esta cargado desde tu CV. Solo quedan detalles opcionales:
 
 ## Personalizar el idioma en la URL para postulaciones
 
-- En ingles: `https://TU-USUARIO.github.io/portafolio/?lang=en`
-- En espanol: `https://TU-USUARIO.github.io/portafolio/?lang=es`
+- En ingles: `https://joshit0.github.io/portafolio/?lang=en`
+- En espanol: `https://joshit0.github.io/portafolio/?lang=es`
 
 ## Aviso
 
 - No se incluye codigo confidencial ni datos internos de ninguna empresa.
 - No se inventaron repositorios, metricas ni logros.
-- Contacto: `joseqp92@gmail.com` y https://www.linkedin.com/in/josequispepino/
+- Contacto: `joseqp92@gmail.com`, https://www.linkedin.com/in/josequispepino/ y
+  WhatsApp +51 947 755 781 (https://wa.me/51947755781).
