@@ -77,8 +77,8 @@ npx http-server -p 8000
 
 Puedes forzar el idioma abriendo la web con el parametro `lang`:
 
-- Espanol: `https://joshit0.github.io/portafolio/?lang=es`
-- Ingles: `https://joshit0.github.io/portafolio/?lang=en`
+- Espanol: `https://joshit0.github.io/qa-portafolio/?lang=es`
+- Ingles: `https://joshit0.github.io/qa-portafolio/?lang=en`
 
 El parametro de la URL tiene prioridad sobre lo guardado en el navegador. Si no
 envias `lang`, se usa el idioma guardado o, si no hay, el del navegador. Al pulsar el
@@ -107,7 +107,7 @@ git push -u origin main
 6. Espera 1-2 minutos. Tu web quedara en:
 
 ```
-https://joshit0.github.io/portafolio/
+https://joshit0.github.io/qa-portafolio/
 ```
 
 ### Usar un repositorio con tu nombre de usuario (URL sin subcarpeta)
@@ -124,7 +124,7 @@ El contenido ya esta cargado desde tu CV. Solo quedan detalles opcionales:
 - **BPuzzle**: anade el enlace cuando decidas publicarlo.
 - **Imagen social**: `og-image.png` ya existe. Al publicar, actualiza en `index.html` la
   meta `og:image` con la URL absoluta (ej.
-  `https://joshit0.github.io/portafolio/og-image.png`) para que LinkedIn/WhatsApp
+  `https://joshit0.github.io/qa-portafolio/og-image.png`) para que LinkedIn/WhatsApp
   muestren la vista previa. Si quieres cambiar el diseno, edita `og-image.svg` y
   regenera el PNG.
 - **Impresion / PDF**: si quieres afinar el resultado impreso, ajusta el bloque
@@ -132,8 +132,8 @@ El contenido ya esta cargado desde tu CV. Solo quedan detalles opcionales:
 
 ## Personalizar el idioma en la URL para postulaciones
 
-- En ingles: `https://joshit0.github.io/portafolio/?lang=en`
-- En espanol: `https://joshit0.github.io/portafolio/?lang=es`
+- En ingles: `https://joshit0.github.io/qa-portafolio/?lang=en`
+- En espanol: `https://joshit0.github.io/qa-portafolio/?lang=es`
 
 ## Aviso
 
